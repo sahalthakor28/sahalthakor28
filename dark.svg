@@ -1,6 +1,616 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640">
-  <rect width="100%" height="100%" fill="#0D1117"/>
-  <text x="50%" y="50%" fill="white" font-size="40" text-anchor="middle">
-    Muhammad Sahal
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1180"
+height="1850"
+viewBox="0 0 1180 1850">
+
+<!-- ================================================= -->
+<!--                     DEFINITIONS                    -->
+<!-- ================================================= -->
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#07111F"/>
+<stop offset="100%" stop-color="#111827"/>
+</linearGradient>
+
+<linearGradient id="primary">
+
+<stop offset="0%" stop-color="#3B82F6"/>
+
+<stop offset="100%" stop-color="#8B5CF6"/>
+
+</linearGradient>
+
+<linearGradient id="card">
+
+<stop offset="0%" stop-color="#111827"/>
+
+<stop offset="100%" stop-color="#1F2937"/>
+
+</linearGradient>
+
+<radialGradient id="glow">
+
+<stop offset="0%" stop-color="#2563EB" stop-opacity=".40"/>
+
+<stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+
+</radialGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="10"
+stdDeviation="15"
+flood-color="#000"
+flood-opacity=".40"/>
+
+</filter>
+
+<style>
+
+.title{
+font:700 42px Segoe UI;
+fill:white;
+}
+
+.subtitle{
+font:600 22px Segoe UI;
+fill:#CBD5E1;
+}
+
+.body{
+font:16px Segoe UI;
+fill:#94A3B8;
+}
+
+.head{
+font:700 22px Segoe UI;
+fill:#60A5FA;
+}
+
+.small{
+font:15px Segoe UI;
+fill:#CBD5E1;
+}
+
+.term{
+font:16px Consolas;
+fill:#E2E8F0;
+}
+
+</style>
+
+</defs>
+
+<!-- ================================================= -->
+<!-- BACKGROUND -->
+<!-- ================================================= -->
+
+<rect
+width="1180"
+height="1850"
+fill="url(#bg)"/>
+
+<circle
+cx="1000"
+cy="150"
+r="220"
+fill="url(#glow)">
+
+<animate
+attributeName="r"
+values="220;250;220"
+dur="8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ================================================= -->
+<!-- TERMINAL WINDOW -->
+<!-- ================================================= -->
+
+<rect
+x="20"
+y="20"
+width="1140"
+height="52"
+rx="12"
+fill="#0F172A"
+stroke="#334155"/>
+
+<circle cx="45" cy="46" r="6" fill="#FF5F56"/>
+<circle cx="65" cy="46" r="6" fill="#FFBD2E"/>
+<circle cx="85" cy="46" r="6" fill="#27C93F"/>
+
+<text
+x="590"
+y="51"
+text-anchor="middle"
+fill="#CBD5E1"
+font-size="16">
+
+Muhammad Sahal — profile.sh --live
+
+</text>
+
+<!-- ================================================= -->
+<!-- HERO -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="140"
+class="title">
+
+MUHAMMAD SAHAL
+
+</text>
+
+<text
+x="60"
+y="176"
+class="subtitle">
+
+Computer Engineering Graduate
+
+</text>
+
+<text
+x="60"
+y="205"
+class="body">
+
+ERP Developer • AI & Machine Learning Enthusiast
+
+</text>
+
+<circle
+cx="65"
+cy="230"
+r="6"
+fill="#22C55E">
+
+<animate
+attributeName="opacity"
+values="1;.2;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="82"
+y="235"
+class="small">
+
+Available for Opportunities
+
+</text>
+
+<!-- ================================================= -->
+<!-- PROFILE CARD -->
+<!-- ================================================= -->
+
+<rect
+x="60"
+y="280"
+width="320"
+height="320"
+rx="18"
+fill="url(#card)"
+filter="url(#shadow)"/>
+
+<text
+x="85"
+y="320"
+class="head">
+
+Developer Profile
+
+</text>
+
+<text x="85" y="360" class="small">👤 Muhammad Sahal</text>
+<text x="85" y="395" class="small">🎓 Computer Engineering</text>
+<text x="85" y="430" class="small">💼 ERP Developer</text>
+<text x="85" y="465" class="small">🤖 Artificial Intelligence</text>
+<text x="85" y="500" class="small">☁ AWS</text>
+<text x="85" y="535" class="small">📍 India</text>
+
+<!-- ================================================= -->
+<!-- TERMINAL -->
+<!-- ================================================= -->
+
+<rect
+x="420"
+y="280"
+width="700"
+height="320"
+rx="18"
+fill="#020617"/>
+
+<circle cx="445" cy="305" r="6" fill="#FF5F56"/>
+<circle cx="465" cy="305" r="6" fill="#FFBD2E"/>
+<circle cx="485" cy="305" r="6" fill="#27C93F"/>
+
+<text
+x="520"
+y="310"
+fill="#64748B">
+
+terminal
+
+</text>
+
+<text x="450" y="355" class="term" fill="#22C55E">
+
+$ whoami
+
+</text>
+
+<text x="450" y="390" class="term">
+
+Muhammad Sahal
+
+</text>
+
+<text x="450" y="425" class="term">
+
+ERP Developer
+
+</text>
+
+<text x="450" y="460" class="term">
+
+AI & Machine Learning
+
+</text>
+
+<text x="450" y="495"
+fill="#38BDF8"
+font-family="Consolas">
+
+Java • Python • JavaScript • Flutter
+
+</text>
+
+<text x="450" y="530"
+fill="#A78BFA"
+font-family="Consolas">
+
+ERPNext • SQL • AWS • HTML • CSS
+
+</text>
+
+<text
+x="450"
+y="565"
+fill="#22C55E"
+font-family="Consolas">
+
+$ Building Intelligent Software...
+
+<animate
+attributeName="opacity"
+values="1;.4;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- ================================================= -->
+<!-- SKILLS -->
+<!-- ================================================= -->
+
+<rect
+x="60"
+y="640"
+width="500"
+height="340"
+rx="18"
+fill="url(#card)"/>
+
+<text
+x="85"
+y="680"
+class="head">
+
+Tech Stack
+
+</text>
+
+<text x="90" y="730" class="small">Java</text>
+<rect x="180" y="715" width="300" height="12" rx="6" fill="#334155"/>
+<rect x="180" y="715" width="280" height="12" rx="6" fill="#3B82F6"/>
+
+<text x="90" y="775" class="small">Python</text>
+<rect x="180" y="760" width="300" height="12" rx="6" fill="#334155"/>
+<rect x="180" y="760" width="270" height="12" rx="6" fill="#22C55E"/>
+
+<text x="90" y="820" class="small">JavaScript</text>
+<rect x="180" y="805" width="300" height="12" rx="6" fill="#334155"/>
+<rect x="180" y="805" width="250" height="12" rx="6" fill="#F59E0B"/>
+
+<text x="90" y="865" class="small">Flutter</text>
+<rect x="180" y="850" width="300" height="12" rx="6" fill="#334155"/>
+<rect x="180" y="850" width="240" height="12" rx="6" fill="#06B6D4"/>
+
+<text x="90" y="910" class="small">ERPNext</text>
+<rect x="180" y="895" width="300" height="12" rx="6" fill="#334155"/>
+<rect x="180" y="895" width="235" height="12" rx="6" fill="#EC4899"/>
+
+<!-- ================================================= -->
+<!-- PROJECTS -->
+<!-- ================================================= -->
+
+<rect
+x="600"
+y="640"
+width="520"
+height="340"
+rx="18"
+fill="url(#card)"/>
+
+<text
+x="630"
+y="680"
+class="head">
+
+Featured Projects
+
+</text>
+
+• ERP Student Registration System
+
+• Hostel Finder Application
+
+• Hand Gesture Virtual Game
+
+• AI & Machine Learning Projects
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<line
+x1="60"
+y1="1780"
+x2="1120"
+y2="1780"
+stroke="#334155"/>
+
+<text
+x="590"
+y="1815"
+text-anchor="middle"
+fill="#94A3B8">
+
+Designed & Developed by Muhammad Sahal
+
+</text>
+
+<text
+x="590"
+y="1840"
+text-anchor="middle"
+fill="#64748B">
+
+GitHub Dark Theme • SVG • 2026
+
+</text>
+
+</svg>
+<!-- ================================================= -->
+<!--            PREMIUM FINISHING SECTION              -->
+<!-- ================================================= -->
+
+<!-- Animated Developer Status -->
+
+<g transform="translate(860 90)">
+
+<rect
+width="240"
+height="44"
+rx="22"
+fill="#22C55E"
+opacity=".15"/>
+
+<circle
+cx="24"
+cy="22"
+r="6"
+fill="#22C55E">
+
+<animate
+attributeName="opacity"
+values="1;.3;1"
+dur="1.8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="42"
+y="28"
+font-size="15"
+font-family="Segoe UI"
+fill="#22C55E">
+
+Currently Coding...
+
+</text>
+
+</g>
+
+<!-- ================================================ -->
+<!-- FEATURED TECHNOLOGIES -->
+<!-- ================================================ -->
+
+<text
+x="70"
+y="1035"
+class="head">
+
+Technologies
+
+</text>
+
+<g transform="translate(70 1065)">
+
+<rect width="95" height="36" rx="18" fill="#2563EB"/>
+<text x="48" y="23"
+text-anchor="middle"
+fill="white"
+font-size="14">
+Java
+</text>
+
+<rect x="110" width="105" height="36" rx="18" fill="#22C55E"/>
+<text x="162" y="23"
+text-anchor="middle"
+fill="white"
+font-size="14">
+Python
+</text>
+
+<rect x="230" width="130" height="36" rx="18" fill="#F59E0B"/>
+<text x="295" y="23"
+text-anchor="middle"
+fill="white"
+font-size="14">
+JavaScript
+</text>
+
+<rect x="380" width="105" height="36" rx="18" fill="#06B6D4"/>
+<text x="432" y="23"
+text-anchor="middle"
+fill="white"
+font-size="14">
+Flutter
+</text>
+
+<rect x="500" width="120" height="36" rx="18" fill="#8B5CF6"/>
+<text x="560" y="23"
+text-anchor="middle"
+fill="white"
+font-size="14">
+ERPNext
+</text>
+
+</g>
+
+<!-- ================================================ -->
+<!-- CODE WINDOW -->
+<!-- ================================================ -->
+
+<rect
+x="650"
+y="1080"
+width="430"
+height="240"
+rx="14"
+fill="#020617"
+stroke="#1E293B"/>
+
+<circle cx="675" cy="1105" r="6" fill="#FF5F56"/>
+<circle cx="695" cy="1105" r="6" fill="#FFBD2E"/>
+<circle cx="715" cy="1105" r="6" fill="#27C93F"/>
+
+<text
+x="750"
+y="1110"
+font-size="14"
+fill="#94A3B8">
+
+main.py
+
+</text>
+
+<text
+x="675"
+y="1155"
+font-family="Consolas"
+font-size="15"
+fill="#38BDF8">
+
+class Developer:
+
+</text>
+
+<text
+x="700"
+y="1185"
+font-family="Consolas"
+font-size="15"
+fill="#E2E8F0">
+
+name = "Muhammad Sahal"
+
+</text>
+
+<text
+x="700"
+y="1215"
+font-family="Consolas"
+font-size="15"
+fill="#E2E8F0">
+
+role = "ERP Developer"
+
+</text>
+
+<text
+x="700"
+y="1245"
+font-family="Consolas"
+font-size="15"
+fill="#E2E8F0">
+
+focus = "Artificial Intelligence"
+
+</text>
+
+<text
+x="700"
+y="1275"
+font-family="Consolas"
+font-size="15"
+fill="#22C55E">
+
+print("Building Intelligent Software")
+
+</text>
+
+<!-- ================================================ -->
+<!-- PREMIUM ENDING -->
+<!-- ================================================ -->
+
+<text
+x="590"
+y="1835"
+text-anchor="middle"
+font-size="20"
+font-weight="700"
+fill="url(#primary)">
+
+Thanks for Visiting My GitHub Profile ⭐
+
+</text>
+
+<text
+x="590"
+y="1865"
+text-anchor="middle"
+font-size="14"
+fill="#94A3B8">
+
+Keep Learning • Keep Building • Keep Growing
+
+</text>
+
 </svg>
